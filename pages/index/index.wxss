@@ -1,0 +1,170 @@
+/**index.wxss**/
+/*
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+*/
+
+/*
+.course{
+  position:fixed;
+  top:0px;
+  width:100%;
+  background:#fff;
+  border-bottom:#eee solid 1px;
+  z-index:10000
+}
+.classes{
+  white-space:nowrap;
+  width:95%;
+  margin:0 auto;
+}
+.top{
+  display:inline-block;
+  padding:22rpx;
+  font-size:16px;
+}
+
+*/
+.slide-image{
+  width:100%;
+  height:400rpx;
+}
+
+/*我的课程导航部分*/
+.more{
+  width:100%;
+  height: 100rpx;
+  display: flex;
+  font-family: '微软雅黑';
+  flex-direction: column;
+  border-top:2rpx solid #eeeeee;
+  position: relative;
+}
+.more-info{
+ font-size: 36rpx;
+ font-family: '微软雅黑';
+ border-left:10rpx solid #4ec4c8;
+ margin-left: 20rpx;
+ margin-top: 20rpx;
+ text-indent: 15rpx;
+}
+.more-icon{
+  position: absolute;
+  width:60rpx;
+  height:60rpx;
+  right:0rpx;
+  top:18rpx;
+  }
+.more-iconimg{
+  width:60rpx;
+  height:60rpx;
+}
+
+/*我的课程下面的课程部分*/
+.classes{
+ width:46%;
+ height:300rpx;
+ float: left;
+ margin-left:20rpx;
+ margin-top:20rpx;
+ position: relative;
+}
+.classes-img{
+  width:100%;
+  height:180rpx;
+}
+.classes-image{
+  width: 100%;
+  height:180rpx;
+}
+.classes-title{
+  font-size:32rpx;
+  font-family: '微软雅黑';
+  display:flex;
+  height:45rpx;
+  margin-top:15rpx;
+  flex-direction:column;
+  justify-content: center;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden;
+}
+
+.classes-info{
+  display: flex;
+  flex-direction: column;
+  height:40rpx;
+}
+.classes-icon{
+  display: flex;
+  flex-direction: row;
+  width: 40rpx;
+  height: 40rpx;
+}
+.classes-teachersrc{
+  width: 40rpx;
+  height: 40rpx;
+}
+.classes-infont{
+  font-size: 28rpx;
+  text-indent: 60rpx;
+  font-family: '微软雅黑';
+  color:#bfbfbf;
+}
+
+/*我的作业下面的作业部分*/
+.homework{
+ width:46%;
+ height:240rpx;
+ float: left;
+ margin-left:20rpx;
+ margin-top:20rpx;
+ position: relative;
+}
+.homework-img{
+  width:100%;
+  height:180rpx;
+}
+.homework-image{
+  width: 100%;
+  height:180rpx;
+}
+.homework-title{
+  font-size:32rpx;
+  font-family: '微软雅黑';
+  display:flex;
+  height:45rpx;
+  margin-top:15rpx;
+  flex-direction:column;
+  justify-content: center;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: hidden;
+}
+
+.clear{
+  width:100%;
+  height:5rpx;
+  margin-top: 5rpx;
+  background-color: #eeeeee;
+}

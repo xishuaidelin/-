@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/fenlei/fenlei",
+    "pages/yonghu/yonghu",
+    "static/img/img",
+    "pages/course/mine/mine",
+    "pages/course/gaoshu/gaoshu",
+    "pages/course/gaitong/gaitong",
+    "pages/course/xiandai/xiandai",
+    "pages/course/shufen/shufen",
+    "pages/homework/mine/mine",
+    "pages/homework/gaoshu/gaoshu",
+    "pages/homework/gaitong/gaitong",
+    "pages/homework/xiandai/xiandai",
+    "pages/homework/shufen/shufen",
+    "pages/discussion/discussion"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "四川大学数学公共课",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/shouye1.png",
+        "selectedIconPath": "static/img/shouye2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "iconPath": "static/img/fenlei1.png",
+        "selectedIconPath": "static/img/fenlei2.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/yonghu/yonghu",
+        "iconPath": "static/img/yonghu1.png",
+        "selectedIconPath": "static/img/yonghu2.png",
+        "text": "个人"
+      }
+    ]
+  }
+}

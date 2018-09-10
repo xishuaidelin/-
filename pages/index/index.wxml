@@ -1,0 +1,79 @@
+<!--index.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!----------------------------------------------------------------------------------------------------------->
+<view class="myclasses">
+  <navigator class="more" url="/pages/course/mine/mine" open-type="navigate" hover-class="other-navigator-hover">
+    <view class="more-info">我的课程</view>
+    <view class="more-icon"><image src="{{iconsrc}}" class="more-iconimg"></image></view>
+  </navigator>
+<!--我的课程下的连续两个课程-->
+  <navigator url="/pages/course/gaoshu/gaoshu" class="classes">
+    <view class="classes-img">
+      <image src="{{imgsrc1}}" class="classes-image"></image>
+    </view>
+    <view class="classes-title">
+      <text>高等数学</text>  
+     </view>
+    <view class="classes-info">
+      <view class="classes-icon">
+      <image src="{{teachersrc}}" class="classes-teachersrc"></image>
+    </view>
+    <view class="classes-infont">教师：杨亮</view>
+   </view>
+  </navigator>
+  <navigator url="/pages/course/gaitong/gaitong" class="classes">
+    <view class="classes-img">
+      <image src="{{imgsrc2}}" class="classes-image"></image>
+    </view>
+    <view class="classes-title">
+      <text>概率统计</text>  
+    </view>
+    <view class="classes-info">
+      <view class="classes-icon">
+        <image src="{{teachersrc}}" class="classes-teachersrc"></image>
+      </view>
+      <view class="classes-infont">教师：张世全</view>
+    </view>
+  </navigator>
+</view>    
+<!---------------------------------------------------------------------------------------------------------->
+
+
+<view class="myhomework">
+  <navigator class="more" url="/pages/course/mine/mine" open-type="navigate" hover-class="other-navigator-hover">
+    <view class="more-info">我的作业</view>
+    <view class="more-icon"><image src="{{iconsrc}}" class="more-iconimg"></image></view>
+  </navigator>
+<!--我的作业下的连续两个作业-->
+  <navigator url="/pages/homework/gaoshu/gaoshu" class="homework">
+    <view class="homework-img">
+      <image src="{{imgsrc1}}" class="homework-image"></image>
+    </view>
+    <view class="homework-title">
+      <text>高等数学</text>  
+     </view>
+  </navigator>
+  <navigator url="/pages/homework/gaitong/gaitong" class="homework">
+    <view class="homework-img">
+      <image src="{{imgsrc2}}" class="homework-image"></image>
+    </view>
+    <view class="homework-title">
+      <text>概率统计</text>  
+    </view>
+  </navigator>
+</view>    
+
+
+
+<!--------------------------------------------------------------------------------------------------------->
+<navigator class="more" url="/pages/discussion/discussion" open-type="navigate" hover-class="other-navigator-hover">
+    <view class="more-info">讨论区</view>
+    <view class="more-icon"><image src="{{iconsrc}}" class="more-iconimg"></image></view>
+  </navigator>
